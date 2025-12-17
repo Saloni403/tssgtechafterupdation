@@ -1,0 +1,1279 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Tssg Tech- Trusted IT Service Company in Delhi </title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta name="description"
+        content="Partner with the leading IT service company in Delhi offering reliable, innovative, and scalable IT solutions to grow your business faster">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="css2-2?family=Inter:wght@400;500;600&family=Saira:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <link href="ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="npm/bootstrap-icons%401.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/create.css" rel="stylesheet">
+
+    <link rel="canonical" href="https://tssgtech.com/" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+    <style>
+        /* banner css */
+        .banner-container {
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .banner-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: url('img/banner/b1.jpeg');
+            background-size: cover;
+            background-position: center;
+            filter: blur(15px);
+            transform: scale(1.1);
+            z-index: 1;
+            transition: background-image 0.6s ease-in-out;
+        }
+
+        .banner-foreground {
+            position: relative;
+            z-index: 2;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .banner-foreground img {
+            max-height: 80vh;
+            max-width: 100vw;
+            width: auto;
+            object-fit: contain;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+            opacity: 1;
+            transition: opacity 0.6s ease-in-out;
+        }
+
+        @media (min-width: 1485px) {
+            .banner-container {
+                padding: 2rem 0;
+            }
+
+            .banner-foreground img {
+                border-radius: 10px;
+            }
+        }
+
+        /* special new year offer banner css */
+        .newyeardiv {
+            background-color: rgba(0, 0, 0, 0.6);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            position: fixed;
+            inset: 0;
+            z-index: 1051;
+            width: 100%;
+            height: 100vh;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            overflow-y: auto;
+            padding: 2rem 0;
+        }
+
+        .newyearbanner {
+            width: 450px;
+            max-width: 90%;
+            box-shadow: 0px 4px 16px white;
+            max-height: 80vh;
+            object-fit: contain;
+        }
+
+        .newyeardiv>div a {
+            background-color: #0396ad;
+            color: #fff;
+            width: fit-content;
+            padding: 0 2.5rem;
+            border-radius: 10px;
+            margin-top: 1rem;
+            box-shadow: 0px 2px 2px rgba(255, 255, 255, 0.629);
+            font-size: 2rem;
+        }
+
+        .closebanner {
+            color: #fff;
+            margin-bottom: 2rem;
+            font-size: 2rem;
+            cursor: pointer;
+        }
+
+        @media (max-width:768px) {
+            .newyearbanner {
+                width: 300px;
+                max-height: 70vh;
+            }
+
+            .newyeardiv>div a {
+                padding: 0 1.5rem;
+                font-size: 1.5rem;
+            }
+
+            .closebanner {
+                font-size: 1rem;
+            }
+        }
+
+        .slick-next {
+            right: 50px !important;
+        }
+
+        .slick-prev {
+            left: 25px !important;
+            z-index: 99;
+        }
+
+        .slick-next:before,
+        .slick-prev:before {
+            font-size: 3rem;
+            color: #fff;
+            opacity: 0.5;
+        }
+
+        @media (max-width:768px) {
+
+            .slick-next:before,
+            .slick-prev:before,
+            .slick-next,
+            .slick-prev {
+                display: none;
+            }
+        }
+    </style>
+
+    <!-- <schema Markup Start -->
+
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Tssg Tech",
+  "alternateName": "IT Solution Company in Delhi",
+  "url": "https://tssgtech.com/",
+  "logo": "https://tssgtech.com/img/logo.png",
+  "sameAs": [
+    "https://www.facebook.com/tssgtech",
+    "https://www.instagram.com/tssgtech/",
+    "https://www.linkedin.com/company/tssg-tech/"
+  ]
+}
+</script>
+
+    <!-- schema Markup Start end -->
+</head>
+
+<body>
+
+
+    <!-- special new year offer banner -->
+    <!-- <div class="newyeardiv">
+        <div>
+        <div class="d-flex flex-column align-items-end">
+        <i class="fa fa-times closebanner" ></i>
+         </div>
+        <div class="d-flex align-items-center justify-content-center flex-column">
+        <img src="img/banner/offer25dec.jpeg" class="newyearbanner" alt="">
+        <a href="https://wa.me/919599669486?text=Hello%2C%20I%20want%20more%20information%20about%20special%20new%20year%20offer." target="_blank"><i class="fab fa-whatsapp"></i></a>
+        </div>
+       </div>
+    </div> -->
+
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" role="status"></div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-secondary py-2 d-none d-md-flex">
+        <div class="container">
+            <div class="d-flex justify-content-between topbar">
+                <div class="top-info">
+                    <small class="me-3 text-white"><a href="#"><i
+                                class="fas fa-map-marker-alt me-2 text-primary"></i></a>B-113, Kalkaji, New
+                        Delhi</small>
+                    <small class="me-3 text-white"><a href="mailto:info@tssgtech.com"><i
+                                class="fas fa-envelope me-2 text-primary"></i></a>info@tssgtech.com</small>
+                </div>
+                <div id="note" class="text-white d-none d-xl-flex"><small>Professional Web Designing & Development
+                        Services in Delhi NCR & Dubai</small></div>
+                <div class="top-link">
+                    <a href="https://www.facebook.com/tssgtech/"
+                        class="bg-light nav-fill btn btn-sm-square rounded-circle"><i
+                            class="fab fa-facebook-f text-primary"></i></a>
+                    <a href="https://www.instagram.com/tssgtech/"
+                        class="bg-light nav-fill btn btn-sm-square rounded-circle"><i
+                            class="fab fa-instagram text-primary"></i></a>
+                    <a href="https://www.linkedin.com/company/tssg-tech/"
+                        class="bg-light nav-fill btn btn-sm-square rounded-circle me-0"><i
+                            class="fab fa-linkedin-in text-primary"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Navbar Start -->
+    <div class="container-fluid bg-dark">
+        <div class="container">
+            <nav class="navbar navbar-dark navbar-expand-lg py-0">
+                <a href="index.html" class="navbar-brand">
+                    <img src="img/logo.png" alt="Logo" class="img-fluid p-2 " width="150" height="50"
+                        style="border-radius: 40px;">
+                </a>
+                <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse bg-transparent" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto mx-xl-auto p-0">
+                        <a href="index.html" class="nav-item nav-link ">Home</a>
+                        <a href="about.html" class="nav-item nav-link ">About</a>
+                        <a href="service.html" class="nav-item nav-link">Services</a>
+                        <a href="project.html" class="nav-item nav-link">Projects</a>
+                        <a href="gallery.html" class="nav-item nav-link">Gallery</a>
+                        <a href="https://blog.tssgtech.com" target="_blank" class="nav-item nav-link">Blogs</a>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
+                </div>
+                <div class="d-none d-xl-flex flex-shirink-0">
+                    <div id="phone-tada" class="d-flex align-items-center justify-content-center me-4">
+                        <a href="tel:+919599669486" class="position-relative animated tada infinite">
+                            <i class="fa fa-phone-alt text-white fa-2x"></i>
+                            <div class="position-absolute" style="top: -7px; left: 20px;">
+                                <span><i class="fa fa-comment-dots text-secondary"></i></span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="d-flex flex-column pe-4 ">
+                        <span class="text-white-50">Have any questions?</span>
+                        <span class="text-secondary">Call: +91 9599 669 486</span>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Carousel Start -->
+
+    <section>
+        <div class="single-item">
+
+            <div class="banners b1">
+                <div class="slide-content">
+                    <div class="container">
+                        <h1>Web Development</h1>
+                        <p>Lorem ipsum dolor sit …</p>
+                        <a href="" class="btn btn-secondary rounded-pill px-md-5 py-md-3 px-3 py-2 text-white">Contact
+                            Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="banners b2">
+                <div class="slide-content">
+                    <div class="container">
+                        <h1>Web Development</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, eos?</p>
+                        <a href="" class="btn btn-secondary rounded-pill px-md-5 py-md-3 px-3 py-2 text-white">Contact
+                            Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="banners b3">
+                <div class="slide-content">
+                    <div class="container">
+                        <h1>Web Development</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, eos?</p>
+                        <a href="" class="btn btn-secondary rounded-pill px-md-5 py-md-3 px-3 py-2 text-white">Contact
+                            Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="banners b4">
+                <div class="slide-content">
+                    <div class="container">
+                        <h1>Web Development</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, eos?</p>
+                        <a href="" class="btn btn-secondary rounded-pill px-md-5 py-md-3 px-3 py-2 text-white">Contact
+                            Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="banners b5">
+                <div class="slide-content">
+                    <div class="container">
+                        <h1>Web Development</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, eos?</p>
+                        <a href="" class="btn btn-secondary rounded-pill px-md-5 py-md-3 px-3 py-2 text-white">Contact
+                            Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Carousel End -->
+
+
+    <!-- Fact Start -->
+    <div class="container-fluid bg-secondary py-3">
+        <div class="container">
+            <div class="row gy-3 d-flex align-items-center justify-content-center">
+                <div class="col-lg-4 col-sm-6 wow">
+                    <div class="d-flex justify-content-center align-items-center counter">
+                        <h2 class="me-3 text-primary counter-value">500+</h2>
+                        <span class="text-white">Total <br> Project</span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 wow">
+                    <div class="d-flex justify-content-center align-items-center counter">
+                        <h2 class="me-3 text-primary counter-value">400+</h2>
+                        <span class="text-white">Happy <br> customer</span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 wow">
+                    <div class="d-flex justify-content-center align-items-center counter">
+                        <h2 class="me-3 text-primary counter-value">5+</h2>
+                        <span class="text-white">Years Of<br>Experience</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fact End -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid my-5 overflow-hidden">
+        <div class="container">
+            <div class="text-center mx-auto pb-2 mb-4 wow" data-aos="fade-up" style="max-width: 600px;">
+                <h5 class="text-primary"> Best Web Designing & Development Services in Delhi NCR & Dubai</h5>
+
+            </div>
+            <div class="row g-5">
+                <div class="col-xl-5 wow" data-aos="fade-right">
+                    <div class="position-relative">
+                        <img src="img/banner/aboutimages1.jpg" class="aboutimg1" alt="">
+                        <img src="img/banner/aboutimages1.jpg" class="aboutimg2" alt="">
+                        <div class="aboutimgtext">
+                            <span>5+</span> <br>Years of <br> Experience
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-7 wow" data-aos="fade-left">
+                    <h5 class="text-primary"><i class="fas fa-clone"></i> About Us</h5>
+                    <h1 class="mb-4">Tssg Tech</h1>
+                    <p>Tssg Tech creates unique solutions that produce measurable benefits by combining cutting-edge
+                        technology with deep subject experience. Whether you are a startup seeking digital exposure or a
+                        major player vying for market share, our experts and their quick thinking will be your partners.
+                        digital change. We are the ones to rely on for establishing future-ready IT architecture,
+                        effective web and mobile apps, and marketing that is based on data with the result of your
+                        brand being in a top position among competitors.</p>
+                    <p class="mb-4">Our company has built its reputation not only as a supplier but also as a partner
+                        that offers reliable assistance in the digital area which is recognized by different industries.
+                        By having Tssg Tech as your partner, your company gets not only the technical expertise but also
+                        an active and dedicated team that shares your company's goals.
+                    </p>
+                    <a href="" class="btn btn-secondary rounded-pill px-5 py-3 text-white">More Details</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Services Start -->
+    <div class="container-fluid services py-2 mb-2">
+        <div class="container">
+            <div class="text-center mx-auto pb-5 wow" data-aos="fade-up" style="max-width: 600px;">
+                <h1>IT Service Company in Delhi</h1>
+                <p class="text-primary">Tssg Tech is an esteemed IT service provider in Delhi that provides professional
+                    services in
+                    software, networking, and technical support to increase the efficiency of your business.
+                </p>
+            </div>
+
+            <div class="row g-5 services-inner">
+                <div class="col-4 d-flex" data-aos="fade-up">
+                    <div class="sercard h-100">
+                        <img src="img/icon/design.png" alt="" width="100" height="100">
+                        <h4 class="mb-3">Web Design</h4>
+                        <p class="mb-4">Websites are the main product of our company and these websites generate
+                            results
+                            for their users besides looking beautiful. We develop such experiences that attract
+                            public
+                            and lead to a sale ranging from nice landing pages to entire business systems.
+                        </p>
+                        <a href="javascript:void(0);"
+                            onclick="window.open('https://wa.me/919599669486?text=Hi%20there!%20I%20want%20to%20connect.', '_blank');"
+                            class="btn btn-secondary text-white px-5 py-3 rounded-pill">
+                            Read More
+                        </a>
+                    </div>
+                </div>
+                <div class="col-4 d-flex" data-aos="fade-up">
+                    <div class="sercard h-100">
+                        <img src="img/icon/devlopment.png" alt="" width="100" height="100">
+                        <h4 class="mb-3">Web Development</h4>
+                        <p class="mb-4">We are experts in developing contemporary, adaptable, and
+                            high-performing
+                            websites from scratch. It does not matter whether you are a new company,
+                            a company in transition or an enterprise, our development solutions
+                            will be tailored to serve your needs precisely.
+                        </p>
+                        <a href="javascript:void(0);"
+                            onclick="window.open('https://wa.me/919599669486?text=Hi%20there!%20I%20want%20to%20connect.', '_blank');"
+                            class="btn btn-secondary text-white px-5 py-3 rounded-pill">
+                            Read More
+                        </a>
+                    </div>
+                </div>
+                <div class="col-4 d-flex" data-aos="fade-up">
+                    <div class="sercard h-100">
+                        <img src="img/icon/ui-ux.png" alt="" width="100" height="100">
+                        <h4 class="mb-3">UI/UX Design</h4>
+                        <p class="mb-4">We design user-friendly, visually attractive interfaces that not only
+                            captivate users but also contribute to the growth of the companies.
+                        </p>
+                        <a href="javascript:void(0);"
+                            onclick="window.open('https://wa.me/919599669486?text=Hi%20there!%20I%20want%20to%20connect.', '_blank');"
+                            class="btn btn-secondary text-white px-5 py-3 rounded-pill">
+                            Read More
+                        </a>
+                    </div>
+                </div>
+                <div class="col-4 d-flex" data-aos="fade-up">
+                    <div class="sercard h-100">
+                        <img src="img/icon/marketing.png" alt="" width="100" height="100">
+                        <h4 class="mb-3">Digital Marketing</h4>
+                        <p class="mb-4">Get to your target market by means of search engine optimization,
+                            social media, and carefully thought-out marketing campaigns.
+                        </p>
+                        <a href="javascript:void(0);"
+                            onclick="window.open('https://wa.me/919599669486?text=Hi%20there!%20I%20want%20to%20connect.', '_blank');"
+                            class="btn btn-secondary text-white px-5 py-3 rounded-pill">
+                            Read More
+                        </a>
+                    </div>
+                </div>
+                <div class="col-4 d-flex" data-aos="fade-up">
+                    <div class="sercard h-100">
+                        <img src="img/icon/software.png" alt="" width="100" height="100">
+                        <h4 class="mb-3">Software Development</h4>
+                        <p class="mb-4">Bespoke software solutions to improve processes and support creativity.
+                        </p>
+                        <a href="javascript:void(0);"
+                            onclick="window.open('https://wa.me/919599669486?text=Hi%20there!%20I%20want%20to%20connect.', '_blank');"
+                            class="btn btn-secondary text-white px-5 py-3 rounded-pill">
+                            Read More
+                        </a>
+                    </div>
+                </div>
+                <div class="col-4 d-flex" data-aos="fade-up">
+                    <div class="sercard h-100">
+                        <img src="img/icon/application.png" alt="" width="100" height="100">
+                        <h4 class="mb-3">Application Development</h4>
+                        <p class="mb-4">We develop apps for mobile and web that are user-friendly, scalable, and
+                            high-performing.
+                        </p>
+                        <a href="javascript:void(0);"
+                            onclick="window.open('https://wa.me/919599669486?text=Hi%20there!%20I%20want%20to%20connect.', '_blank');"
+                            class="btn btn-secondary text-white px-5 py-3 rounded-pill">
+                            Read More
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Services End -->
+
+
+    <!-- Project Start -->
+    <div class="container-fluid project py-5 mb-5">
+        <div class="container">
+            <div class="text-center mx-auto pb-5 wow " data-aos="fade-up" style="max-width: 600px;">
+                <h5 class="text-primary"><i class="fas fa-clone"></i> Our Project</h5>
+                <h1>Our Recently Completed Projects</h1>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4 wow" data-aos="fade-up" data-aos-easing="linear">
+                    <div class="project-card position-relative overflow-hidden rounded shadow">
+                        <img src="img/project/rp1.png" alt="Rocky Pay" class="img-fluid w-100" />
+                        <div
+                            class="project-overlay position-absolute bottom-0 start-0 end-0 p-4 bg-dark bg-opacity-75 text-white rounded-bottom">
+                            <h4 class="text-white mb-2">Rocky Pay</h4>
+                            <p class="small mb-2 text-white-50">A clean and earthy design system for a sustainable
+                                coffee brand.</p>
+                            <a href="https://rockypay.com/" target="_blank" class="btn btn-outline-light btn-sm">
+                                Visit Site <i class="fa fa-arrow-right ms-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Repeat for other projects -->
+                <div class="col-md-6 col-lg-4 wow" data-aos="fade-up" data-aos-easing="linear">
+                    <div class="project-card position-relative overflow-hidden rounded shadow">
+                        <img src="img/project/in1.png" alt="Cyber Security" class="img-fluid w-100" />
+                        <div
+                            class="project-overlay position-absolute bottom-0 start-0 end-0 p-4 bg-dark bg-opacity-75 text-white rounded-bottom">
+                            <h4 class="text-white mb-2">Indianails</h4>
+                            <p class="small mb-2 text-white-50">A clean and earthy design system for a sustainable
+                                coffee brand.</p>
+                            <a href="https://indianails.com/" target="_blank" class="btn btn-outline-light btn-sm">
+                                Visit Site <i class="fa fa-arrow-right ms-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 wow" data-aos="fade-up" data-aos-easing="linear">
+                    <div class="project-card position-relative overflow-hidden rounded shadow">
+                        <img src="img/project/sa1.png" alt="Cyber Security" class="img-fluid w-100" />
+                        <div
+                            class="project-overlay position-absolute bottom-0 start-0 end-0 p-4 bg-dark bg-opacity-75 text-white rounded-bottom">
+                            <h4 class="text-white mb-2">Sanjeevani Amrut</h4>
+                            <p class="small mb-2 text-white-50">A clean and earthy design system for a sustainable
+                                coffee brand.</p>
+                            <a href="https://sanjeevaniamrut.co.in/" target="_blank"
+                                class="btn btn-outline-light btn-sm">
+                                Visit Site <i class="fa fa-arrow-right ms-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- add more project cards as needed -->
+            </div>
+        </div>
+
+        <div class="text-center mt-5">
+            <a href="project.html" class="btn px-4 py-2 rounded-pill text-white" style="background-color:#6f42c1">View
+                More
+                Project <i class="fa fa-arrow-right ms-3"></i></a>
+        </div>
+    </div>
+
+    <!-- Project End -->
+
+
+
+    <!-- Team Start -->
+    <section class="skills py-5 text-center technologysection">
+        <div class="container">
+            <div class="text-center mx-auto pb-4 wow" data-aos="fade-up" style="max-width: 600px">
+                <h5 class="text-primary"><i class="fas fa-clone"></i> Technologies we work</h5>
+                <h1>Development Skills</h1>
+            </div>
+
+            <div class="d-flex justify-content-center align-items-center gap-3 pb-5">
+                <button id="frontBtn" type="button" class="btn btn-primary px-4 py-2 rounded-pill active">Front
+                    End</button>
+                <button id="backBtn" type="button" class="btn btn-outline-secondary px-4 py-2 rounded-pill">Back
+                    End</button>
+            </div>
+
+
+            <!-- 👇 This class makes 5 columns per row on large screens -->
+            <div id="skillsGrid" class="row row-cols-2 row-cols-sm-3 row-cols-md-5 g-4 justify-content-center" data-aos="fade-up" ></div>
+        </div>
+    </section>
+
+    <!-- <div class="container py-2 bg-light">
+        <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px">
+            <h5 class="text-primary">Our Team</h5>
+            <h2>Meet Our Expert Team</h2>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-center g-4">
+
+            <div class="col d-flex justify-content-center wow zoomIn" data-wow-delay="0.3s">
+                <div class="team-card" style="background-image: url('img/team/sumitsir.jpeg');">
+                    <div class="bg-white w-100">
+                        <p class="">Sumit Pal</p>
+                        <span class="text-dark" style="max-width: 200px;">
+                            Co-Founder & <br /> Head of Project Management
+                        </span>
+                    </div>
+                    <div class="team-overlay">
+                        <h5 class="team-name">Sumit Pal</h5>
+                        <p class="team-role">Co-Founder & Head of Project Management</p>
+                        <span class="mb-4 small">
+                            Oversees project planning, execution, and client coordination to ensure timely delivery.
+                        </span>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/tssgtech/" aria-label="Facebook"><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/tssgtech/" aria-label="Instagram"><i
+                                    class="fab fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/company/tssg-tech/" aria-label="LinkedIn"><i
+                                    class="fab fa-linkedin-in"></i></a>
+                                  
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col d-flex justify-content-center wow zoomIn" data-wow-delay="0.5s">
+                <div class="team-card" style="background-image: url('img/team/chauhansir.jpeg');">
+                    <div class="bg-white w-100">
+                        <p>Rakesh Chauhan</p>
+                        <span class="text-dark text-truncate d-inline-block" style="max-width: 200px;">
+                            Account Manager
+                        </span>
+                    </div>
+                    <div class="team-overlay">
+                        <h5 class="team-name">Rakesh Chauhan</h5>
+                        <p class="team-role">Account Manager</p>
+                        <span class="mb-4 small">
+                            Manages financial records, billing, and ensures compliance with accounting standards.
+                        </span>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/tssgtech/" aria-label="Facebook"><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/tssgtech/" aria-label="Instagram"><i
+                                    class="fab fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/company/tssg-tech/" aria-label="LinkedIn"><i
+                                    class="fab fa-linkedin-in"></i></a>
+                                  
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col d-flex justify-content-center wow zoomIn" data-wow-delay="0.7s">
+                <div class="team-card" style="background-image: url('img/team/khansir.jpeg');">
+                    <div class="bg-white w-100">
+                        <p>Anjum Pervez Khan</p>
+                        <span class="text-dark">HR Manager</span>
+                    </div>
+                    <div class="team-overlay">
+                        <h5 class="team-name">Anjum Pervez Khan</h5>
+                        <p class="team-role">HR Manager</p>
+                        <span class="mb-4 small">
+                            A results-driven HR Manager with a focus on talent development, employee engagement, and
+                            organizational growth.
+                        </span>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/tssgtech/" aria-label="Facebook"><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/tssgtech/" aria-label="Instagram"><i
+                                    class="fab fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/company/tssg-tech/" aria-label="LinkedIn"><i
+                                    class="fab fa-linkedin-in"></i></a>
+                                  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-5">
+            <a href="team.html" class="btn px-4 py-2 rounded-pill text-white" style="background-color:#6f42c1">
+                View Full Team <i class="fa fa-arrow-right ms-3"></i>
+            </a>
+        </div>
+    </div> -->
+
+    <!-- Team End -->
+
+    <!-- Testimonial Start -->
+    <div class="container-fluid testimonial py-5 mb-5">
+        <div class="container">
+            <div class="text-center mx-auto pb-5 wow" data-aos="fade-up" style="max-width: 600px;">
+                <h5 class="text-primary"><i class="fas fa-clone"></i> Our Testimonial</h5>
+                <h1>What Our Client Says!</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel wow" data-aos="fade-up">
+                <div class="testimonial-item border p-4">
+                    <div class="d-flex align-items-center">
+                        <div class="">
+                            <img src="img/review.png" alt="">
+                        </div>
+                        <div class="ms-4">
+                            <h4 class="text-secondary mb-0">Gunjan Singh</h4>
+                            <small class="m-0 pb-3">CEO</small>
+                            <div class="d-flex pe-5">
+                                <i class="fas fa-star me-1 text-primary"></i>
+                                <i class="fas fa-star me-1 text-primary"></i>
+                                <i class="fas fa-star me-1 text-primary"></i>
+                                <i class="fas fa-star me-1 text-primary"></i>
+                                <i class="fas fa-star me-1"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border-top mt-4 pt-3">
+                        <p class="mb-0">“The team delivered exceptional service and exceeded our expectations in every
+                            way. Communication was clear and the project was completed on time.”</p>
+                    </div>
+                </div>
+                <div class="testimonial-item border p-4">
+                    <div class=" d-flex align-items-center">
+                        <div class="">
+                            <img src="img/review.png" alt="">
+                        </div>
+                        <div class="ms-4">
+                            <h4 class="text-secondary mb-0">Roshan Gujjar</h4>
+                            <small class="m-0 pb-3">Director</small>
+                            <div class="d-flex pe-5">
+                                <i class="fas fa-star me-1 text-primary"></i>
+                                <i class="fas fa-star me-1 text-primary"></i>
+                                <i class="fas fa-star me-1 text-primary"></i>
+                                <i class="fas fa-star me-1 text-primary"></i>
+                                <i class="fas fa-star me-1 text-primary"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border-top mt-4 pt-3">
+                        <p class="mb-0">“Professional and highly skilled team. They understood our vision perfectly and
+                            delivered a product that truly stands out in the market.”</p>
+                    </div>
+                </div>
+                <div class="testimonial-item border p-4">
+                    <div class=" d-flex align-items-center">
+                        <div class="">
+                            <img src="img/review.png" alt="">
+                        </div>
+                        <div class="ms-4">
+                            <h4 class="text-secondary mb-0">Shruti Singh</h4>
+                            <small class="m-0 pb-3">CEO</small>
+                            <div class="d-flex pe-5">
+                                <i class="fas fa-star me-1 text-primary"></i>
+                                <i class="fas fa-star me-1 text-primary"></i>
+                                <i class="fas fa-star me-1 text-primary"></i>
+                                <i class="fas fa-star me-1 text-primary"></i>
+                                <i class="fas fa-star me-1 text-primary"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border-top mt-4 pt-3">
+                        <p class="mb-0">“Outstanding support throughout the project. They were quick to address any
+                            issues and always went the extra mile to ensure satisfaction.”</p>
+                    </div>
+                </div>
+                <div class="testimonial-item border p-4">
+                    <div class=" d-flex align-items-center">
+                        <div class="">
+                            <img src="img/review.png" alt="">
+                        </div>
+                        <div class="ms-4">
+                            <h4 class="text-secondary mb-0">Nitin Thakur </h4>
+                            <small class="m-0 pb-3">Director</small>
+                            <div class="d-flex pe-5">
+                                <i class="fas fa-star me-1 text-primary"></i>
+                                <i class="fas fa-star me-1 text-primary"></i>
+                                <i class="fas fa-star me-1 text-primary"></i>
+                                <i class="fas fa-star me-1 text-primary"></i>
+                                <i class="fas fa-star me-1 text-primary"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border-top mt-4 pt-3">
+                        <p class="mb-0">“A highly competent team with excellent technical skills. They delivered a
+                            scalable solution that met all our business needs.”</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Testimonial End -->
+
+
+    <!-- Contact Start -->
+    <div class="container-fluid py-2 mb-5 contactsection">
+        <div>
+            <div class="container">
+                <!-- Section Heading -->
+                <div class="text-center mx-auto pb-5 wow" data-aos="fade-up" style="max-width: 600px;">
+                    <h5 class="text-primary"><i class="fas fa-clone"></i> Get In Touch</h5>
+                    <h1 class="mb-3">Contact for any query</h1>
+                    <p class="mb-2">We’d love to hear from you. Drop us a message and let’s build something amazing
+                        together.</p>
+                </div>
+
+                <!-- Contact Details -->
+                <div class="contact-detail position-relative p-4 p-md-5 rounded shadow">
+                    <div class="row g-4 justify-content-center mb-5">
+
+                        <!-- Address -->
+                        <div class="col-md-6 col-xl-4 wow" data-aos="fade-up">
+                            <div class="d-flex bg-light p-3 rounded h-100 align-items-center">
+                                <div class="flex-shrink-0 btn-square bg-secondary rounded-circle d-flex align-items-center justify-content-center"
+                                    style="width: 64px; height: 64px;">
+                                    <i class="fas fa-map-marker-alt text-white"></i>
+                                </div>
+                                <div class="ms-3">
+                                    <h5 class="text-primary mb-1">Address</h5>
+                                    <a href="https://maps.app.goo.gl/RZXp59P4Yh7jn8h36" target="_blank"
+                                        class="text-dark text-decoration-none">B-113, Kalkaji, New Delhi</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Phone -->
+                        <div class="col-md-6 col-xl-4 wow" data-aos="fade-up">
+                            <div class="d-flex bg-light p-3 rounded h-100 align-items-center">
+                                <div class="flex-shrink-0 btn-square bg-secondary rounded-circle d-flex align-items-center justify-content-center"
+                                    style="width: 64px; height: 64px;">
+                                    <i class="fa fa-phone text-white"></i>
+                                </div>
+                                <div class="ms-3">
+                                    <h5 class="text-primary mb-1">Call Us</h5>
+                                    <a href="tel:+919599669486" class="text-dark text-decoration-none">+91 9599 669
+                                        486</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Email -->
+                        <div class="col-md-6 col-xl-4 wow" data-aos="fade-up">
+                            <div class="d-flex bg-light p-3 rounded h-100 align-items-center">
+                                <div class="flex-shrink-0 btn-square bg-secondary rounded-circle d-flex align-items-center justify-content-center"
+                                    style="width: 64px; height: 64px;">
+                                    <i class="fa fa-envelope text-white"></i>
+                                </div>
+                                <div class="ms-3">
+                                    <h5 class="text-primary mb-1">Email Us</h5>
+                                    <a href="mailto:info@tssgtech.com"
+                                        class="text-dark text-decoration-none">info@tssgtech.com</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Contact Form + Map -->
+                    <div class="row g-5">
+                        <!-- Map -->
+                        <div class="col-lg-6 wow" data-aos="fade-up">
+                            <div class="h-100">
+                                <iframe class="rounded w-100 h-100 border"
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.832052458666!2d77.24920487495353!3d28.544767388061768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3d00a8eee0d%3A0xa80d26cb97a074bc!2s113%2C%20B%20Block%20Rd%2C%20Block%20C%2C%20Kalkaji%2C%20New%20Delhi%2C%20Delhi%20110019!5e0!3m2!1sen!2sin!4v1757670814420!5m2!1sen!2sin"
+                                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+
+                        <!-- Contact Form -->
+                        <div class="col-lg-6 wow" data-aos="fade-up">
+                            <form class="p-4 p-md-5 rounded bg-light shadow-sm" method="post" id="form">
+                                <input type="hidden" name="access_key" value="Enter you api key">
+                                <div class="mb-3">
+                                    <input type="text" class="form-control py-3" placeholder="Your Name" name="name"
+                                        required>
+                                </div>
+                                <div class="mb-3">
+                                    <input type="email" class="form-control py-3" placeholder="Your Email" name="email"
+                                        required>
+                                </div>
+                                <div class="mb-3">
+                                    <input type="text" class="form-control py-3" placeholder="Contact Number"
+                                        name="phone" required>
+                                </div>
+                                <div class="mb-3">
+                                    <textarea class="form-control py-3" rows="5" placeholder="Message" name="message"
+                                        required></textarea>
+                                </div>
+                                <button class="btn bg-primary text-white py-3 px-5" type="submit">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer bg-dark wow fadeIn" data-wow-delay=".3s">
+        <div class="container pt-5 pb-4">
+            <div class="row g-5">
+                <!-- Logo & About -->
+                <div class="col-lg-3 col-md-8">
+                    <a href="index.html">
+                        <img src="img/logo.png" alt="Logo" class="img-fluid p-2" width="150" height="50"
+                            style="border-radius: 40px;">
+                    </a>
+                    <p class="mt-4 text-light">
+                        Elevating digital experiences through clean code, sharp design, and impactful solutions.
+                    </p>
+                    <div class="d-flex hightech-link">
+                        <a href="#" class="btn-light btn btn-square rounded-circle me-2"><i
+                                class="fab fa-facebook-f text-primary"></i></a>
+                        <a href="#" class="btn-light btn btn-square rounded-circle me-2"><i
+                                class="fab fa-twitter text-primary"></i></a>
+                        <a href="#" class="btn-light btn btn-square rounded-circle me-2"><i
+                                class="fab fa-instagram text-primary"></i></a>
+                        <a href="#" class="btn-light btn btn-square rounded-circle"><i
+                                class="fab fa-linkedin-in text-primary"></i></a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col-lg-3 col-md-8">
+                    <h3 class="text-secondary">Quick Links</h3>
+                    <div class="mt-4 d-flex flex-column short-link">
+                        <a href="index.html" class="mb-2 text-white"><i
+                                class="fas fa-angle-right text-secondary me-2"></i>Home</a>
+                        <a href="about.html" class="mb-2 text-white"><i
+                                class="fas fa-angle-right text-secondary me-2"></i>About Us</a>
+                        <a href="contact.html" class="mb-2 text-white"><i
+                                class="fas fa-angle-right text-secondary me-2"></i>Contact Us</a>
+                        <a href="service.html" class="mb-2 text-white"><i
+                                class="fas fa-angle-right text-secondary me-2"></i>Our Services</a>
+                        <a href="project.html" class="mb-2 text-white"><i
+                                class="fas fa-angle-right text-secondary me-2"></i>Our Projects</a>
+                        <a href="https://blog.tssgtech.com" target="_blank" class="mb-2 text-white"><i
+                                class="fas fa-angle-right text-secondary me-2"></i>Blogs</a>
+                        <a href="team.html" class="mb-2 text-white"><i
+                                class="fas fa-angle-right text-secondary me-2"></i>Our Team</a>
+                    </div>
+                </div>
+
+                <!-- Contact Delhi -->
+                <div class="col-lg-3 col-md-4">
+                    <h3 class="text-secondary">Delhi Office</h3>
+                    <div class="text-white mt-4 d-flex flex-column contact-link">
+                        <a href="#" class="pb-3 text-light"><i
+                                class="fas fa-map-marker-alt text-secondary me-2"></i>B-113, B - Block Kalkaji, New
+                            Delhi</a>
+                        <a href="tel:+919599669486" class="py-3 text-light"><i
+                                class="fas fa-phone-alt text-secondary me-2"></i>+91 9599 669 486</a>
+                        <a href="mailto:info@tssgtech.com" class="py-3 text-light"><i
+                                class="fas fa-envelope text-secondary me-2"></i>info@tssgtech.com</a>
+                    </div>
+                </div>
+
+                <!-- Contact Dubai -->
+                <div class="col-lg-3 col-md-4">
+                    <h3 class="text-secondary">Dubai Office</h3>
+                    <div class="text-white mt-4 d-flex flex-column contact-link">
+                        <a href="#" class="pb-3 text-light"><i class="fas fa-map-marker-alt text-secondary me-2"></i>P.O
+                            Box: 455102, Dubai,
+                            UAE</a>
+                        <a href="mailto:dubai@tssgtech.com" class="py-3 text-light"><i
+                                class="fas fa-envelope text-secondary me-2"></i>uae@tssgtech.com</a>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="text-light mt-5 mb-4">
+
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <small>
+                        &copy; 2025
+                        <a href="https://tssgtech.com" class="text-primary text-decoration-none fw-semibold"
+                            target="_blank" rel="noopener noreferrer">Tssg-Tech</a>. Trusted Technology Solutions for a
+                        Digital World.
+                    </small>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+    <!-- whatsappbtn -->
+    <a href="https://wa.me/919599669486" target="_blank"
+        class="btn btn-success rounded-lg position-fixed d-flex justify-content-center align-items-center"
+        style="width: 50px; height: 50px; bottom: 100px; right: 30px; z-index: 1050;" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp" style="font-size: 30px;"></i>
+    </a>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-secondary btn-square rounded-circle back-to-top"><i
+            class="fa fa-arrow-up text-white"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="npm/bootstrap%405.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <script src="js/main.js"></script>
+    <!-- SweetAlert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/forvalidate.js"></script>
+    <script>
+        window.addEventListener('DOMContentLoaded', function () {
+            const delay = 1000;
+            const popup = document.getElementById('scrollPopup');
+            const closeBtn = document.getElementById('closePopup');
+
+            setTimeout(function () {
+                popup.style.display = 'flex';
+                document.body.classList.add('no-scroll');
+            }, delay);
+
+            closeBtn.addEventListener('click', function () {
+                popup.style.display = 'none';
+                document.body.classList.remove('no-scroll');
+            });
+        });
+    </script>
+
+    <script>
+        const images = [
+            "img/banner/b1.jpeg",
+            "img/banner/b2.jpg",
+            "img/banner/b5.jpeg",
+        ];
+
+        let current = 0;
+
+        const bannerImg = document.getElementById("banner-img");
+        const bannerBg = document.getElementById("banner-bg");
+
+        function showSlide(index) {
+            if (index < 0) index = images.length - 1;
+            if (index >= images.length) index = 0;
+            current = index;
+
+            // Fade out current image
+            bannerImg.style.opacity = 0;
+
+            // Wait for fade-out before switching image
+            setTimeout(() => {
+                bannerImg.src = images[current];
+                bannerBg.style.backgroundImage = `url('${images[current]}')`;
+                bannerImg.style.opacity = 1;
+            }, 600);
+        }
+
+        // Auto-slide every 5 seconds
+        setInterval(() => {
+            showSlide(current + 1);
+        }, 5000);
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const skills = {
+                frontend: [
+                    {
+                        name: "HTML",
+                        img: "img/skill/html.png",
+                        description: "The standard markup language for creating web pages and structuring content."
+                    },
+                    {
+                        name: "CSS",
+                        img: "img/skill/css.png",
+                        description: "Used to style and design web pages with layouts, colors, and fonts."
+                    },
+                    {
+                        name: "JavaScript",
+                        img: "img/skill/js.png",
+                        description: "A programming language that enables interactive and dynamic web content."
+                    },
+                    {
+                        name: "Bootstrap",
+                        img: "img/skill/bootstrap.png",
+                        description: "A popular CSS framework for building responsive and mobile-first websites."
+                    },
+                    {
+                        name: "Tailwind CSS",
+                        img: "img/skill/tailwind.png",
+                        description: "A utility-first CSS framework for rapidly building modern and custom designs."
+                    },
+                    {
+                        name: "React.js",
+                        img: "img/skill/react.png",
+                        description: "A JavaScript library for building fast, dynamic, and reusable user interfaces."
+                    },
+                    {
+                        name: "Next.js",
+                        img: "img/skill/next.png",
+                        description: "A React-based framework for building fast, SEO-friendly, and server-rendered web applications."
+                    },
+                    {
+                        name: "Angular.js",
+                        img: "img/skill/angular.jpg",
+                        description: "A TypeScript-based framework developed by Google for building dynamic, single-page web applications."
+                    }
+
+                ],
+
+                backend: [
+                    {
+                        name: "Node.js",
+                        img: "img/skill/node.png",
+                        description: "A JavaScript runtime built on Chrome's V8 engine used for building scalable server-side applications."
+                    },
+                    {
+                        name: "PHP",
+                        img: "img/skill/php.png",
+                        description: "A server-side scripting language commonly used for dynamic websites and web applications."
+                    },
+                    {
+                        name: "Laravel",
+                        img: "img/skill/laravel.png",
+                        description: "A modern PHP framework that simplifies web development with elegant syntax and built-in features."
+                    },
+                    {
+                        name: "MySQL",
+                        img: "img/skill/mysql.png",
+                        description: "A widely used open-source relational database management system for data storage and retrieval."
+                    },
+                    {
+                        name: "WordPress",
+                        img: "img/skill/wordpress.jpg",
+                        description: "A popular open-source content management system (CMS) used to create websites and blogs easily."
+                    },
+                    {
+                        name: "Python",
+                        img: "img/skill/python.png",
+                        description: "A versatile, high-level programming language widely used for web development, data science, automation, and more."
+                    },
+                    {
+                        name: "React Native",
+                        img: "img/skill/react.png",
+                        description: "A JavaScript framework for building native mobile apps for iOS and Android using React."
+                    },
+                    {
+                        name: "Flutter",
+                        img: "img/skill/flutter.png",
+                        description: "A UI toolkit from Google for building natively compiled mobile, web, and desktop applications from a single codebase."
+                    }
+
+                ]
+            };
+
+            const frontBtn = document.getElementById('frontBtn');
+            const backBtn = document.getElementById('backBtn');
+            const skillsGrid = document.getElementById('skillsGrid');
+
+            function renderSkills(type) {
+                skillsGrid.innerHTML = skills[type]
+                    .map((skill, index) => `
+                        <div class="col-6 col-md-4 col-lg-3 mb-4">
+                            <div class="card  shadow-sm py-4 text-center h-100 wow zoomIn"
+                                data-wow-delay="${(index + 1) * 0.2}s"
+                                style="transition: all 0.3s ease;">
+                                <img src="${skill.img}" alt="${skill.name}" 
+                                    class="img-fluid mx-auto mb-3" 
+                                    style="width: 60px; height: 60px; object-fit: contain;">
+                                <h6 class="fw-bold">${skill.name}</h6>
+                                <p  class="text-muted small m-2 mb-0 ">${skill.description}</p>
+                            </div>
+                        </div>
+                    `).join('');
+
+                const cards = skillsGrid.querySelectorAll('.card');
+                cards.forEach(card => {
+                    card.addEventListener('mouseenter', () => {
+                        card.classList.add('border', 'border-primary', 'shadow-lg');
+                        card.style.transform = 'translateY(-5px)';
+                    });
+                    card.addEventListener('mouseleave', () => {
+                        card.classList.remove('border', 'border-primary', 'shadow-lg');
+                        card.style.transform = 'translateY(0)';
+                    });
+                });
+            }
+
+            renderSkills('frontend');
+
+            frontBtn.addEventListener('click', () => {
+                renderSkills('frontend');
+                frontBtn.classList.add('btn-primary', 'active');
+                frontBtn.classList.remove('btn-outline-primary');
+                backBtn.classList.remove('btn-success', 'active');
+                backBtn.classList.add('btn-outline-success');
+            });
+
+            backBtn.addEventListener('click', () => {
+                renderSkills('backend');
+                backBtn.classList.add('btn-success', 'active');
+                backBtn.classList.remove('btn-outline-success');
+                frontBtn.classList.remove('btn-primary', 'active');
+                frontBtn.classList.add('btn-outline-primary');
+            });
+
+        });
+
+
+        //     special new year offer banner js
+        let offerbanner = document.querySelector(".newyeardiv")
+        window.addEventListener("load", () => {
+            setTimeout(() => {
+                offerbanner.style.display = "flex";
+            }, 1000);
+
+        })
+        document.querySelector(".closebanner").addEventListener("click", () => {
+            offerbanner.style.display = "none";
+        })
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $('.single-item').slick({
+            autoplay: true,
+            autoplaySpeed: 3000
+        });
+        $('.single-item').on('init afterChange', function (event, slick, currentSlide) {
+            // remove animation class from all slide-content
+            $('.slide-content').removeClass('animated');
+            // but then add class to the active slide-content
+            $(slick.$slides.get(currentSlide)).find('.slide-content').addClass('animated');
+        });
+    </script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
