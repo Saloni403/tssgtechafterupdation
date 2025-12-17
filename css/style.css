@@ -754,6 +754,7 @@ right: 0;
 
 .contactsection{
    position: relative; 
+   overflow: hidden;
 }
 .contactsection::before{
     position: absolute;
