@@ -19,13 +19,48 @@
 .bg-secondary {
     background: #4cabbd !important;
 }
-.btn-secondary {
-    background: #4cabbd !important;
-}
+    .btn.btn-secondaryy{
+        color: #fff !important;
+        background-color: #0396ad;
+        padding: 1rem 3rem;
+        border-radius: 30px;
+        position: relative;
+        border: none;
+        overflow: hidden;
+        z-index: 1;
+    }
+    /* .btn.btn-secondaryy span{
+        z-index: 2;
+    } */
+    
+     .btn.btn-secondaryy::after, .btn.btn-secondaryy::before{
+        content: "";
+        position: absolute;
+        height: 50%;
+        width: 0;
+        background-color: black;
+        transition: width 0.3s;
+        z-index: -1;
+    }
+    .btn.btn-secondaryy::before{
+        top: 0;
+        left: 0;
+          border-radius:30px 30px 0 0 ;
+    }
+    .btn.btn-secondaryy::after{
+ right: 0;
+        bottom: 0;
+         border-radius:0 0 30px 30px;
+    }
+    .btn.btn-secondaryy:hover::before, .btn.btn-secondaryy:hover::after{
+        width: 100%;
+    }
 @media (max-width:768px) {
-    a.btn-secondary{
-    font-size: 14px;
-}
+    .btn.btn-secondaryy{
+    
+        padding: 1rem 2rem;
+       font-size: 14px;
+    }
 }
 
 #spinner {
@@ -700,6 +735,39 @@ right: 0;
     }
 }
 
+.skillsdiv{
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 100%;
+   width: 100%;
+   background-color: #4cabbd;
+   z-index: -7;
+  border-radius: 5px;
+transform-origin: top center;   /* KEY POINT */
+    transform: rotate(180deg);
+    transition: transform 0.5s ease;
+}
+.card{
+    overflow: hidden;
+}
+.card:hover .skillsdiv{
+  transform: rotate(0deg);
+}
+.card:hover h6{
+    color: #fff;
+}
+.card:hover p{
+    color: #fff !important;
+}
+/* @keyframes rotatee {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+} */
 /*** Team End ***/
 
 
@@ -766,17 +834,47 @@ right: 0;
     width: 600px;
     border-radius: 50%;
     z-index: -99;
+    animation: movingg 15s linear infinite;
+}
+@keyframes movingg {
+    0%, 100%{
+        transform: translate(0, 0);
+    }
+    25%{
+       transform: translate(0, -100px);
+    }
+    50%{
+        transform: translate(-100px, -100px);
+    }
+    75%{
+       transform: translate(-100px, 0);
+    }
+}
+@keyframes movinggg {
+    0%, 100%{
+        transform: translate(0, 0);
+    }
+    25%{
+       transform: translate(0, 50px);
+    }
+    50%{
+        transform: translate(50px, 50px);
+    }
+    75%{
+       transform: translate(50px, 0);
+    }
 }
 .contactsection::after{
     position: absolute;
     content: "";
-     top: 20px;
-    left: -20px;
+     top: 0;
+    left: 0;
     background-image: url(../img/bgcolorbox.png);
     height: 400px;
     width: 400px;
     border-radius: 50%;
     z-index: -99;
+    animation: movinggg 15s linear infinite;
 }
 .contact-detail{
     background-color: rgba(255, 255, 255, 0.3);
@@ -820,9 +918,16 @@ right: 0;
     letter-spacing: 1px;
 }
 
+.footer .hightech-link a i, .footer .hightech-link a{
+    transition: 0.3s ease;
+    color: #512ead;
+}
 .footer .hightech-link a:hover {
     background: var(--bs-secondary);
     border: 0;
 }
-
+.footer .hightech-link a:hover i{
+    color: #fff;
+    transform: scale(1.15);
+}
 /*** Footer End ***/
