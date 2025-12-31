@@ -405,14 +405,14 @@ height: auto;
 .wow span{
 font-size: 18px;
 }
-@media (max-width:768px) {
+/* @media (max-width:768px) {
     .wow h2{
     font-size: 2rem;
 }
 .wow span{
 font-size: 14px;
 }
-}
+} */
 
 /* count down end*/
 
@@ -633,10 +633,9 @@ right: 0;
 }
 
 .card-client:hover {
-  transform: translateY(-10px);
+  transform: translate3d(0, -10px, 0) !important;
   box-shadow: 0px 4px 16px #65a9b4;
 }
-
 .user-picture {
   overflow: hidden;
   object-fit: cover;
@@ -668,6 +667,15 @@ right: 0;
   font-size: 16px;
 }
 
+.social-media{
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+}
+.card-client:hover .social-media {
+    opacity: 1;
+ visibility: visible;
+}
 .social-media:before {
   content: " ";
   display: block;
